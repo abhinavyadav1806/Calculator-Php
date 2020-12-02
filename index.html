@@ -1,0 +1,40 @@
+<html> 
+<head> 
+	<link rel="stylesheet" type="text/css" href="cal.css">
+	<script src="index.php"></script>
+	<script src="index.js"></script>
+</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<body> 
+	<table border="1"> 
+		<tr> 
+			<td colspan="3"><input type="text" id="result"/></td> 
+			<td><input type="button" value="C" onclick="clr()" class="op"> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="1" onclick="num('1')" class="num"/> </td> 
+			<td><input type="button" value="2" onclick="num('2')"class="num"/> </td> 
+			<td><input type="button" value="3" onclick="num('3')" class="num"/> </td> 
+			<td><input type="button" value="/" onclick="opr('/')" class="op"/> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="4" onclick="num('4')" class="num"/> </td> 
+			<td><input type="button" value="5" onclick="num('5')" class="num"/> </td> 
+			<td><input type="button" value="6" onclick="num('6')" class="num"/> </td> 
+			<td><input type="button" value="-" onclick="opr('-')" class="op"> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="7" onclick="num('7')" class="num"/> </td> 
+			<td><input type="button" value="8" onclick="num('8')" class="num"/> </td> 
+			<td><input type="button" value="9" onclick="num('9')" class="num"/> </td> 
+			<td><input type="button" value="+" onclick="opr('+')" class="op"> </td> 
+		</tr> 
+		<tr> 
+			<td><input type="button" value="." onclick="num('.')" class="num"/> </td> 
+			<td><input type="button" value="0" onclick="num('0')" class="num"/> </td> 
+			<td><input type="button" value="*" onclick="opr('*')" class="op"> </td> 
+			<td><input type="button" value="=" onclick="calc()" class="op"> </td> 
+		</tr> 
+	</table> 
+</body> 
+</html> 

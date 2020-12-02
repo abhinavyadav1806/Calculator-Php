@@ -1,0 +1,46 @@
+body 
+{
+	background-color: #080510;
+}
+.op
+{ 
+	text-align:center; 
+	background-color:rgb(134, 97, 97); 
+	border: solid black 2px; 
+	width:100%;
+	height: 100%;
+}
+ 
+table
+{
+	width:60%;
+	height:60%;
+}
+
+.num 
+{ 
+	background-color:rgb(206, 184, 184); 
+	color: black; 
+	border: solid black 2px; 
+	width:100%;
+	height: 100%;
+} 
+
+input[type="text"] 
+{ 
+	background-color:white;
+	width:100% ;
+	height: 100%;
+} 
+
+input {
+	color: black;
+	text-align: center;
+	font-weight: bold; 
+	font-family: cursive;
+	border-left: #080510;
+	border-right: #080510;
+	border-style: groove;
+	background-color: #080510; 
+	font-size: 110%;
+}
